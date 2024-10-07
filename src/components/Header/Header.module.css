@@ -1,0 +1,17 @@
+.header {
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.logo {
+    width: 200px;
+    height: 146px;
+    background-image: url('../../assets/images/sirius-logo.jpg');
+    background-repeat: no-repeat;
+    margin: 0 auto 20px auto;
+}

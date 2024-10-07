@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    position: relative;
+    background-color: #11216c;
+    color: #EEF0FC;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure {
+    margin: 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

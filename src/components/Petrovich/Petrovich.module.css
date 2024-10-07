@@ -1,0 +1,16 @@
+.petrovichWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.petrovichImg {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.petrovichQuote {
+    font-size: 25px;
+    max-width: 300px;
+    text-align: justify;
+    line-height: 1.25;
+}
