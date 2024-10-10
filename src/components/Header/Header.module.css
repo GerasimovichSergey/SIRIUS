@@ -1,5 +1,6 @@
 .header {
     padding-top: 30px;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -11,6 +12,7 @@
 .logo {
     width: 200px;
     height: 146px;
+    border-radius: 10px;
     background-image: url('../../assets/images/sirius-logo.jpg');
     background-repeat: no-repeat;
     margin: 0 auto 20px auto;

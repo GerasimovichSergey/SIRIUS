@@ -1,0 +1,14 @@
+.table {
+    border: 1px solid crimson;
+    font-size: 45px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.row {
+}
+
+.headerCell {
+    border: 1px solid crimson;
+    padding: 20px;
+}

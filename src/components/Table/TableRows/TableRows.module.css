@@ -1,0 +1,37 @@
+.row {
+    line-height: 2;
+}
+
+.dateCell {
+    padding: 0 20px;
+}
+
+.timeCell {
+    text-align: center;
+}
+
+.vsCell {
+    padding-left: 20px;
+}
+
+.scoreCell {
+    text-align: center;
+}
+
+.win {
+    color: #29e51f;
+}
+
+.lose {
+    color: #ef1616;
+}
+
+.countCell {
+    text-align: center;
+    border-bottom: 1px solid crimson;
+}
+
+.row:hover {
+    background-color: #EEF0FC;
+    cursor: default;
+}
