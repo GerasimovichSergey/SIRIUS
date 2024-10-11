@@ -13,6 +13,3 @@ export const calcDaysUntilTheGame = (todayDate, gameDate) => {
         return 'Игра СЕГОДНЯ';
     }
 };
-
-// если число > 0 и число < 1 => тогда игра завтра
-// если число < 0 и число больше -1 => тогда игра сегодня

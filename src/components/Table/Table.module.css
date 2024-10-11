@@ -1,5 +1,5 @@
 .table {
-    border: 1px solid crimson;
+    border: 1px solid #c9e1ff;
     font-size: 45px;
     border-collapse: collapse;
     margin: 0 auto;
@@ -9,6 +9,6 @@
 }
 
 .headerCell {
-    border: 1px solid crimson;
+    border: 1px solid #c9e1ff;
     padding: 20px;
 }

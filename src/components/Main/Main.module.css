@@ -1,3 +1,7 @@
 .main {
 
 }
+
+.tableWrapper {
+    overflow-x: auto;
+}

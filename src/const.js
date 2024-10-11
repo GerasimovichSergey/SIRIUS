@@ -6,7 +6,7 @@ export const SIRIUS_GAMES = [
         score: [76, 51],
     },
     {
-        date: '11.10.2024',
+        date: '20.10.2024',
         time: '12:30',
         vs: 'GOLDEN HILL',
         score: '',
@@ -62,7 +62,7 @@ export const SIRIUS_GAMES = [
     {
         date: '02.03.2025',
         time: '12:30',
-        vs: 'Эра-Недвижимости плюс',
+        vs: 'Эра-Недвиж',
         score: '',
     },
 ];

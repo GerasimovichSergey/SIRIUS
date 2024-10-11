@@ -28,10 +28,19 @@
 
 .countCell {
     text-align: center;
-    border-bottom: 1px solid crimson;
+    border-bottom: 1px solid #c9e1ff;
+}
+
+.days {
+    color: #EE6352;
 }
 
 .row:hover {
-    background-color: #EEF0FC;
+    background-color: #c9e1ff;
     cursor: default;
+    color: #0c284c;
+}
+
+.row:hover .win {
+    color: #0c284c;
 }

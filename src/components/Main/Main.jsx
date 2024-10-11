@@ -7,7 +7,9 @@ export const Main = () => {
     return (
         <main className={style.main}>
             <Container>
-                <Table />
+                <div className={style.tableWrapper}>
+                    <Table />
+                </div>
             </Container>
         </main>
     );

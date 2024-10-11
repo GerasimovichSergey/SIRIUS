@@ -1,6 +1,7 @@
 import style from './TableRows.module.css';
 import { SIRIUS_GAMES } from '../../../const.js';
 import { calcDaysUntilTheGame } from '../../../helpers/dateHelpers.js';
+import { Fragment } from 'react';
 
 
 export const TableRows = () => {
@@ -8,7 +9,7 @@ export const TableRows = () => {
 
     return SIRIUS_GAMES.map((game) => {
         return (
-            <>
+            <Fragment key={game.date}>
                 <tr className={style.row} key={game.date}>
                     <td className={style.dateCell}>{game.date}</td>
                     <td className={style.timeCell}>{game.time}</td>
@@ -26,10 +27,13 @@ export const TableRows = () => {
                 {!game.score.length ?
                     <tr>
                         <td className={style.countCell} colSpan={4}>
-                            До игры осталось {calcDaysUntilTheGame(todayDate, game.date)} дней
+                            {calcDaysUntilTheGame(todayDate, game.date) >= 1 ?
+                                <>До игры осталось <span
+                                    className={style.days}>{calcDaysUntilTheGame(todayDate, game.date)}</span> дней
+                                </> : <span className={style.days}>{calcDaysUntilTheGame(todayDate, game.date)}</span>}
                         </td>
                     </tr> : ''}
-            </>
+            </Fragment>
         );
     });
 };
