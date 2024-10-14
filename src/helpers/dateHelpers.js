@@ -1,5 +1,5 @@
 export const calcDaysUntilTheGame = (todayDate, gameDate) => {
-    const reformatDate = gameDate.split('.').reverse().join('-');
+    const reformatDate = gameDate.split('.').reverse().join('-') + 'T00:00:00.000+03:00';
 
     const daysToGameInMilliseconds = Date.parse(reformatDate) - todayDate;
 
