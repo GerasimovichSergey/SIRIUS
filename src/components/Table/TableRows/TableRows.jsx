@@ -21,7 +21,7 @@ export const TableRows = () => {
                                 style.win : style.lose}>
                                 {game.score[0]}
                             </span> : {game.score[1]}
-                            </> : ''}
+                            </> : null}
                     </td>
                 </tr>
                 {!game.score.length ?
