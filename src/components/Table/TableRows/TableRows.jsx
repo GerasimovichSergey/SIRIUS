@@ -2,12 +2,16 @@ import style from './TableRows.module.css';
 import { SIRIUS_GAMES } from '../../../const.js';
 import { calcDaysUntilTheGame } from '../../../helpers/dateHelpers.js';
 import { Fragment } from 'react';
+import plural from 'plural-ru';
 
 
 export const TableRows = () => {
     const todayDate = Date.now();
 
     return SIRIUS_GAMES.map((game) => {
+        const daysUntilTheGame = calcDaysUntilTheGame(todayDate, game.date);
+        const pluralDays = plural(daysUntilTheGame, 'день', 'дня', 'дней');
+
         return (
             <Fragment key={game.date}>
                 <tr className={style.row} key={game.date}>
@@ -29,8 +33,8 @@ export const TableRows = () => {
                         <td className={style.countCell} colSpan={4}>
                             {calcDaysUntilTheGame(todayDate, game.date) >= 1 ?
                                 <>До игры осталось <span
-                                    className={style.days}>{calcDaysUntilTheGame(todayDate, game.date)}</span> дней
-                                </> : <span className={style.days}>{calcDaysUntilTheGame(todayDate, game.date)}</span>}
+                                    className={style.days}>{daysUntilTheGame}</span> {pluralDays}
+                                </> : <span className={style.days}>{daysUntilTheGame}</span>}
                         </td>
                     </tr> : ''}
             </Fragment>
