@@ -1,3 +1,7 @@
+.tableWrapper {
+    overflow-x: auto;
+}
+
 .table {
     border: 1px solid #c9e1ff;
     font-size: 30px;

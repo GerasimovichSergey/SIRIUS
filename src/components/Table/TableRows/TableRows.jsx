@@ -27,12 +27,18 @@ export const TableRows = () => {
                             </span> : {game.score[1]}
                             </> : null}
                     </td>
+                    <td className={style.statCell}>
+                        {game.stats ? <a href={`/statistic/${game.stats}`}>Скачать</a> : null}
+                    </td>
+                    {/*<td className={style.statCell}>*/}
+                    {/*    <a href={`../../../../public/statistic/${game.stats}`}>Скачать</a>*/}
+                    {/*</td>*/}
                 </tr>
                 {!game.score.length ?
                     <tr>
-                        <td className={style.countCell} colSpan={4}>
+                        <td className={style.countCell} colSpan={5}>
                             {calcDaysUntilTheGame(todayDate, game.date) >= 1 ?
-                                <>До игры осталось <span
+                                <>До игры осталось: <span
                                     className={style.days}>{daysUntilTheGame}</span> {pluralDays}
                                 </> : <span className={style.days}>{daysUntilTheGame}</span>}
                         </td>

@@ -23,12 +23,24 @@
 }
 
 .lose {
-    color: #ef1616;
+        color: #ef1616;
 }
 
 .countCell {
     text-align: center;
     border-bottom: 1px solid #c9e1ff;
+}
+
+.statCell {
+    text-align: center;
+}
+
+.statCell a {
+    transition: color 0.2s;
+}
+
+.statCell a:hover {
+    color: #ef1616;
 }
 
 .days {
@@ -42,5 +54,9 @@
 }
 
 .row:hover .win {
+    color: #0c284c;
+}
+
+.row:hover .lose {
     color: #0c284c;
 }
