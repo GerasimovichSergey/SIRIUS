@@ -30,9 +30,6 @@ export const TableRows = () => {
                     <td className={style.statCell}>
                         {game.stats ? <a href={`/statistic/${game.stats}`}>Скачать</a> : null}
                     </td>
-                    {/*<td className={style.statCell}>*/}
-                    {/*    <a href={`../../../../public/statistic/${game.stats}`}>Скачать</a>*/}
-                    {/*</td>*/}
                 </tr>
                 {!game.score.length ?
                     <tr>
