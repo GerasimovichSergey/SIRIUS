@@ -18,7 +18,7 @@ export const SIRIUS_GAMES = [
         time: '11:00',
         vs: 'Mapogo males',
         score: [70, 77],
-        stats: '',
+        stats: 'vsMapogoMales.xlsx',
     },
     {
         date: '17.11.2024',
