@@ -25,7 +25,7 @@ export const SIRIUS_GAMES = [
         time: '15:30',
         vs: 'Eagles',
         score: [48, 42],
-        stats: '',
+        stats: 'vsEagles.xlsx',
     },
     {
         date: '01.12.2024',
