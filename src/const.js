@@ -31,7 +31,7 @@ export const SIRIUS_GAMES = [
         date: '01.12.2024',
         time: '15:30',
         vs: 'ОПЛАТИ',
-        score: '',
+        score: [49, 60],
         stats: '',
     },
     {
