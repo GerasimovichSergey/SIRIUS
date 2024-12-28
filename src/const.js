@@ -45,7 +45,7 @@ export const SIRIUS_GAMES = [
         date: '28.12.2024',
         time: '16:30',
         vs: 'ISsoft',
-        score: '',
+        score: [67, 53],
         stats: '',
     },
     {
