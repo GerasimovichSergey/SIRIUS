@@ -52,7 +52,7 @@ export const SIRIUS_GAMES = [
         date: '19.01.2025',
         time: '11:00',
         vs: 'VSS',
-        score: '',
+        score: [84, 43],
         stats: '',
     },
     {
