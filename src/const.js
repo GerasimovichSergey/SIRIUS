@@ -60,7 +60,7 @@ export const SIRIUS_GAMES = [
         time: '16:30',
         vs: 'Грушвиль',
         score: [79, 95],
-        stats: '',
+        stats: 'vsGrysh.xlsx',
     },
     {
         date: '16.02.2025',
