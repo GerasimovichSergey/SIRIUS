@@ -4,7 +4,7 @@ import style from './Statistic.module.css';
 export const Statistic = () => {
     return (
         <div className={style.statisticWrapper}>
-            <h3 className={style.statisticUpdateTitle}>Последнее обновление файлов статистики: 23.02.2025</h3>
+            <h3 className={style.statisticUpdateTitle}>Последнее обновление файлов статистики: 15.03.2025</h3>
             <ul className={style.statistic}>
                 <li className={style.statisticItem}>Статистика команды &#8594;
                     <a className={style.statisticItemLink} href="/statistic/SIRIUS.xlsx">Скачать</a>
