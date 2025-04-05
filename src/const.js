@@ -88,6 +88,13 @@ export const SIRIUS_GAMES = [
         time: '12:30',
         vs: 'Минск 7х',
         score: [78, 48],
+        stats: 'vsMinsk7x.xlsx',
+    },
+    {
+        date: '12.04.2025',
+        time: '16:30',
+        vs: 'ISsoft',
+        score: '',
         stats: '',
     },
 ];
